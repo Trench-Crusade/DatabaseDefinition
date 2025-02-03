@@ -11,7 +11,7 @@ import org.tc.consts.DatabaseConsts;
 @Table(name= DatabaseConsts.API_ROUTE, schema = DatabaseConsts.GATEWAY_SCHEMA)
 public class ApiRouteEntity {
     @Id
-    private String id;
+    private Long id;
     private String routeIdentifier;
     private String uri;
     private String method;
